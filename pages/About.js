@@ -1,0 +1,44 @@
+import React from "react";
+
+function About() {
+  return (
+    <div className="w-full h-screen flex items-center  justify-center ">
+      <div className="-mt-96  w-full flex items-center justify-center h-full flex-col gap-20">
+        <div className="max-w-[30%] flex flex-col gap-10 text-xl text-gray-600">
+          <h1 className="text-3xl text-white text-center  ">
+            <div className="flex gap-6 items-center">
+              <span className="text-xl">01.</span>
+              <h1>About Me</h1>
+
+              <hr className="w-[60%]" />
+            </div>
+          </h1>
+          <p className="text-left flex flex-col gap-6">
+            Hello! My name is Sukhman and I enjoy creating things that live on
+            the internet. My interest in web development started back in 2012
+            when I decided to try editing custom Tumblr themes — turns out
+            hacking together a custom reblog button taught me a lot about HTML &
+            CSS!{" "}
+            <span>
+              Fast-forward to today, and I’ve had the privilege of working at an
+              advertising agency, a start-up, a huge corporation, and a
+              student-led design studio. My main focus these days is building
+              accessible, inclusive products and digital experiences at
+              Upstatement for a variety of clients.
+            </span>{" "}
+            <span>
+              I also recently launched a course that covers everything you need
+              to build a web app with the Spotify API using Node & React.{" "}
+            </span>
+            <span>
+              Here are a few technologies I’ve been working with recently:
+              JavaScript (ES6+) TypeScript React Eleventy Node.js WordPress
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default About;
