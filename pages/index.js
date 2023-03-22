@@ -6,7 +6,7 @@ import Contact from "./Contact";
 
 export default function Home() {
   return (
-    <div className="w-full h-[4000px] bg-[#0E182D] text-white ">
+    <div className="w-full max-h-full bg-[#0E182D] text-white ">
       <Nav />
 
       <section id="home">

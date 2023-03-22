@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="w-full h-screen flex items-center  justify-center ">
       <div className="-mt-96  w-full flex items-center justify-center h-full flex-col gap-20">
-        <div className="max-w-[30%] flex flex-col gap-10 text-xl text-gray-600">
+        <div className="max-w-[40%] flex flex-col gap-10 text-xl text-gray-600">
           <h1 className="text-3xl text-white text-center  ">
             <div className="flex gap-6 items-center">
               <span className="text-xl">01.</span>
