@@ -3,6 +3,7 @@ import HomePage from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Skills from "./Skills";
 
 export default function Home() {
   return (
@@ -20,6 +21,9 @@ export default function Home() {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
     </div>
   );

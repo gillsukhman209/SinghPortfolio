@@ -25,6 +25,12 @@ function Nav() {
           </button>
           <button onClick={() => scrollView("projects")}>Projects</button>
           <button onClick={() => scrollView("contact")}>Contact</button>
+          <button
+            onClick={() => scrollView("skills")}
+            className="tracking-widest"
+          >
+            Skills
+          </button>
 
           <button
             onClick={() => scrollView("resume")}
