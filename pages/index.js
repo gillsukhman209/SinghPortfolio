@@ -4,6 +4,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import SocialBar from "../components/SocialBar";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <section id="skills">
         <Skills />
       </section>
+      <SocialBar />
     </div>
   );
 }
