@@ -8,7 +8,7 @@ import SocialBar from "../components/SocialBar";
 
 export default function Home() {
   return (
-    <div className="w-full max-h-full bg-[#0E182D] text-white ">
+    <div className="w-full max-h-full bg-[#0E182D] text-white animate-pulse-short">
       <Nav />
 
       <section id="home">
@@ -20,12 +20,13 @@ export default function Home() {
       <section id="projects">
         <Projects />
       </section>
-      <section id="contact">
-        <Contact />
-      </section>
       <section id="skills">
         <Skills />
       </section>
+      <section id="contact">
+        <Contact />
+      </section>
+
       <SocialBar />
     </div>
   );
