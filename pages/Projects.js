@@ -3,8 +3,8 @@ import Card from "../components/Card";
 
 function Projects() {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <div className="mt-52  w-full flex items-center justify-center h-full flex-col gap-20">
+    <div className="w-full h-screen ">
+      <div className="mt-52  w-full flex items-center es:justify-between md:justify-center h-full flex-col gap-20">
         <h1 className="text-4xl  text-white ">Projects</h1>
         <div className="w-[80%] flex gap-10 flex-wrap  items-center justify-center">
           <Card title="WeatherApp" />
