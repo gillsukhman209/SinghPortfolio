@@ -15,12 +15,12 @@ import SkillCard from "../components/SkillCard";
 
 function Skills() {
   return (
-    <div className="w-full h-screen flex justify-center items-end ">
-      <div className=" w-[70%] h-[60%] bg-[#18223C] rounded-3xl flex flex-col items-center  p-6 ">
+    <div className="w-full h-screen flex justify-center items-end p-4 ">
+      <div className=" w-[100%] sm:w-[70%] h-[60%] bg-[#18223C] rounded-3xl flex flex-col items-center  p-6 ">
         <div className="w-full h-full flex items-center justify-center flex-col gap-14 ">
           <div className=" text-4xl">Skills</div>
           <div className="w-full h-full mt-8 ">
-            <ul className="flex  h-full text-xl flex-wrap w-full gap-3  ">
+            <ul className="flex  h-full text-md sm:text-xl flex-wrap w-full gap-4 sm:gap-0  ">
               <SkillCard title="Javascript" logo={<SiJavascript />} />
               <SkillCard title="Typescript" logo={<SiTypescript />} />
               <SkillCard title="React/NextJS" logo={<SiReact />} />
