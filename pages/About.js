@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div className="w-full h-screen  ">
-      <div className="es:-mt-96  w-full flex items-center xs:justify-between  justify-center h-full flex-col gap-20">
+      <div className="  w-full flex items-center  justify-center h-full flex-col gap-20">
         <div className=" max-w-[80%] md:max-w-[40%] xl:max-w-[30%] flex flex-col gap-10 text-xl text-gray-600">
           <h1 className="text-3xl text-white text-center  ">
             <div className="flex gap-6 items-center">

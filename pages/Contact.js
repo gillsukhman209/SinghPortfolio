@@ -2,7 +2,7 @@ import React from "react";
 import InputField from "../components/InputField";
 function Contact() {
   return (
-    <div className="mt-52 w-full h-screen flex items-center justify-center  ">
+    <div className=" w-full h-screen flex items-center justify-center  ">
       <div className="w-[50%] h-[50%] bg-[#15223E] flex  flex-col items-center rounded-2xl shadow-2xl gap-32">
         <h1 className="text-3xl font-semibold mt-6">Contact Me</h1>
         <div className="flex flex-col gap-10 w-full items-center">
