@@ -16,7 +16,6 @@ function SocialBar() {
   return (
     <div className="w-full h-20 sticky bottom-0 left-0">
       <div className="w-[300px] h-full  p-10 bg-[#18223C] rounded-xl">
-        {" "}
         <div className="w-full h-full flex items-center justify-between cursor-pointer">
           <FaLinkedin
             size={35}

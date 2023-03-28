@@ -24,8 +24,8 @@ function Skills() {
               <SkillCard title="Javascript" logo={<SiJavascript />} />
               <SkillCard title="Typescript" logo={<SiTypescript />} />
               <SkillCard title="React/NextJS" logo={<SiReact />} />
-              <SkillCard title="Boostrap" logo={<SiTypescript />} />
-              <SkillCard title="Saas" logo={<SiTypescript />} />
+              <SkillCard title="Boostrap" />
+              <SkillCard title="Saas" />
               <SkillCard title="Tailwind" logo={<SiTailwindcss />} />
               <SkillCard title="Node.js" logo={<SiNodedotjs />} />
               <SkillCard title="Swift" logo={<SiSwift />} />

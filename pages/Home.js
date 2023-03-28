@@ -9,13 +9,18 @@ function Home() {
         </h1>
         <div className="text-5xl sm:text-7xl font-semibold gap-5 flex flex-col">
           <h1 className="text-[#CDD6F3] ">Sukhmanpreet Singh</h1>
-          <h1 className="text-gray-500">I build things for the web.</h1>
+          <h1 className="text-gray-500">Frontend Developer.</h1>
         </div>
 
-        <h1 className="text-gray-400 w-full sm:max-w-[50%] text-start text-lg font-light ">
-          I'm a software engineer specializing in building (and occasionally
-          designing) exceptional digital experiences. currently, I'm focused on
-          building accessible, human-centered prducts at
+        <h1 className="text-gray-400 w-full sm:max-w-[35%]  text-start text-lg font-light ">
+          I am an aspiring frontend developer with a passion for programming
+          since 2016. I have developed a strong foundation in programming and
+          created a diverse portfolio of projects that showcase my proficiency
+          in various frontend technologies such as HTML, CSS, Javascript, Python
+          and have used React for most of my projects . My dedication to
+          continuous learning and growth, coupled with my ability to develop
+          creative and innovative solutions, make me a strong candidate for any
+          frontend development role.
           <span className="text-[#91FCDC]">Upstatement</span>.
         </h1>
       </div>
