@@ -21,7 +21,7 @@ function Home() {
           continuous learning and growth, coupled with my ability to develop
           creative and innovative solutions, make me a strong candidate for any
           frontend development role.
-          <span className="text-[#91FCDC]">Upstatement</span>.
+          <span className="text-[#91FCDC]"> Upstatement</span>.
         </h1>
       </div>
     </div>

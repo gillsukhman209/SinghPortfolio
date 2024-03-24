@@ -14,7 +14,7 @@ function About() {
             </div>
           </h1>
           <p className="text-left flex flex-col gap-6">
-            As an 18-year-old with a strong passion for coding since 2016, I
+            As an 20-year-old with a strong passion for coding since 2016, I
             have immersed myself in the world of computer science and have
             developed a range of skills and abilities that have allowed me to
             create a diverse portfolio of projects. Despite not having any

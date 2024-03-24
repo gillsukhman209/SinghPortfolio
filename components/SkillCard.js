@@ -1,9 +1,9 @@
 import React from "react";
 
-function SkillCard({ title, logo }) {
+function SkillCard({ title, logo, color }) {
   return (
     <li className="w-[30%] h-10 gap-3 flex items-center  justify-center">
-      <div> {logo}</div>
+      <div className={color}> {logo}</div>
       <h1>{title}</h1>
     </li>
   );
