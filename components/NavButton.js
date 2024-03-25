@@ -13,7 +13,7 @@ function NavButton({ elementId, title }) {
       className={
         title === "Portfolio"
           ? "text-3xl tracking-widest"
-          : "text-lg tracking-widest hover:scale-110 ease-in-out"
+          : "text-lg tracking-widest hover:scale-110 ease-in-out "
       }
       onClick={() => scrollView(elementId)}
     >

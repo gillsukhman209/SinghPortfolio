@@ -36,14 +36,14 @@ function Contact() {
     }
   };
   return (
-    <div className=" w-full h-screen flex items-center justify-center p-4 ">
-      <div className="w-[100%]  2xl:w-[30%] lg:w-[70%] h-[60%]  bg-[#15223E] flex  flex-col items-center justify-center  rounded-2xl shadow-2xl gap-10  ">
-        <h1 className="md:text-3xl text-2xl font-semibold ">Contact Me</h1>
+    <div className=" w-full min-h-screen flex items-start   justify-center p-4 ">
+      <div className="w-[100%]  2xl:w-[30%] lg:w-[70%] h-[800px] bg-[#15223E] flex  flex-col items-center justify-around  rounded-2xl shadow-2xl  ">
+        <h1 className="text-4xl font-semibold ">Contact Me</h1>
         <form
           onSubmit={(event) => {
             onSubmit(event);
           }}
-          className="flex flex-col gap-10 w-full items-center"
+          className="flex flex-col gap-10 w-full items-center mb-32"
         >
           <input
             type="text"

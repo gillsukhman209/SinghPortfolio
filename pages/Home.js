@@ -3,12 +3,12 @@ import Image from "next/image";
 
 function Home() {
   return (
-    <div className="w-full p-16  flex items-center justify-center h-screen z-10 ">
+    <div className="w-full p-16  flex items-center justify-center min-h-screen  z-10 ">
       <div className="flex flex-col gap-10">
         <h1 className="text-[#91FCDC] sm:text-3xl text-2xl font-light">
           Hi, my name is
         </h1>
-        <div className="text-5xl sm:text-7xl font-semibold gap-5 flex flex-col">
+        <div className="text-5xl sm:text-7xl font-semibold gap-5 flex flex-col  ">
           <h1 className="text-[#CDD6F3]  ">Sukhmanpreet Singh</h1>
           <h1 className="text-gray-500 animate-pulse">Frontend Developer.</h1>
         </div>

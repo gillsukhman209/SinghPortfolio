@@ -54,12 +54,12 @@ function Nav() {
                 <NavButton elementId="projects" title="Projects" />
                 <NavButton elementId="skills" title="Skills" />
                 <NavButton elementId="contact" title="Contact" />
-                <button
+                {/* <button
                   onClick={() => scrollView("resume")}
                   className="border border-white text-white h-10 w-24 shadow-xl rounded-md flex items-center justify-center font-semibold tracking-wide"
                 >
                   Resume
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
