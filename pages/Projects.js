@@ -9,9 +9,11 @@ function Projects() {
         <Card title="Managy (ToDo List)" link="https://managy.vercel.app" />
 
         <Card
-          title="Rapid Relay Pro (Chrome Extension) "
+          title="Rapid Relay Pro  "
           link="https://rapidrelaypro.vercel.app"
         />
+
+        <Card title="More on GitHub" link="https://github.com/gillsukhman209" />
       </div>
     </div>
   );

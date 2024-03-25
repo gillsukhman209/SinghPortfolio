@@ -15,7 +15,7 @@ import SkillCard from "../components/SkillCard";
 
 function Skills() {
   return (
-    <div className="w-full h-screen flex justify-center items-end p-4 ">
+    <div className="w-full min-h-screen flex justify-center items-end p-4 ">
       <div className=" w-[50%] h-[60%] bg-[#18223C] rounded-3xl flex flex-col items-center  p-6  ">
         <div className="w-full  h-full flex items-center justify-center flex-col gap-20 ">
           <div className=" text-5xl">Skills</div>
