@@ -14,7 +14,7 @@ function Home() {
 
         <h1 className="text-gray-400 w-full sm:max-w-[35%]  text-start text-lg font-light ">
           I am an aspiring frontend developer with a passion for programming
-          since 2016. I have developed a strong foundation in programming and
+          since 2016. I have developed a strong foundationd in programming and
           created a diverse portfolio of projects that showcase my proficiency
           in various frontend technologies such as HTML, CSS, Javascript, Python
           and have used React for most of my projects . My dedication to
