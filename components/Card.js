@@ -13,7 +13,7 @@ function Card({ title, link, description }) {
         <div className="xs:text-lg md:text-2xl 4xl:text-3xl  font-sans">
           {title}
         </div>
-        <div className="text-gray-400">{description}</div>
+        <div className="text-gray-600">{description}</div>
       </div>
     </div>
   );
