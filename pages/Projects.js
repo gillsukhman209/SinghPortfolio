@@ -8,11 +8,28 @@ function Projects() {
         Projects
       </h1>
       <div className="w-full flex gap-10 flex-wrap   items-center justify-center mt-20">
-        <Card title="Managy (ToDo List)" link="https://managy.vercel.app" />
+        <Card
+          title="Managy"
+          description="Task manager"
+          link="https://managy.vercel.app"
+        />
 
         <Card
-          title="Rapid Relay Pro  "
+          title="Rapid Relay Pro "
+          description="Advanced auto refresher for truckers"
           link="https://rapidrelaypro.vercel.app"
+        />
+
+        <Card
+          title="Money Tracker"
+          description="Website to manage your money"
+          link="https://moneytracker-online.vercel.app"
+        />
+
+        <Card
+          title="Life Map"
+          link="https://lifemap.vercel.app"
+          description="Create charts to keep track of your life"
         />
 
         <Card title="More on GitHub" link="https://github.com/gillsukhman209" />
