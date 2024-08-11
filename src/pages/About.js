@@ -2,55 +2,45 @@ import React from "react";
 
 function About() {
   return (
-    <div className="w-full min-h-screen  ">
-      <div className="  w-full flex items-center  justify-center h-full flex-col gap-20">
-        <div className=" max-w-[80%] lg:max-w-[50%] 2xl:max-w-[50%] 3xl:max-w-[40%] flex flex-col gap-10 h-full text-xl text-gray-600">
-          <h1 className="text-3xl text-white text-center  ">
-            <div className="flex gap-6 items-center">
-              <span className="text-xl">01.</span>
-              <h1 className="text-">About Me</h1>
-
-              <hr className=" w-[100%] sm:w-[60%]" />
-            </div>
+    <div className="w-full min-h-screen   py-16">
+      <div className="container mx-auto px-4 md:px-8 flex flex-col items-center justify-center">
+        <div className="w-full max-w-2xl flex flex-col gap-8">
+          <h2 className="text-[#91FCDC] text-xl font-light">01. About Me</h2>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#CDD6F3]">
+            Passionate Coder Since 2016
           </h1>
-          <p className="text-left flex flex-col gap-6  ease-in-out hover:text-white">
-            As an 20-year-old with a strong passion for coding since 2016, I
-            have immersed myself in the world of computer science and have
-            developed a range of skills and abilities that have allowed me to
-            create a diverse portfolio of projects. Despite not having any
-            formal work experience in the field, I am a self-motivated
-            individual who is committed to continuous learning and growth.
-            <span>
-              Throughout my coding journey, I have undertaken numerous projects
-              that have allowed me to hone my skills and develop a strong
-              foundation in programming. I have built a weather app that allows
-              users to check the current weather conditions of any location in
-              the world. In addition, I have also created clones of popular
-              social media platforms such as Instagram, Twitter, YouTube, and
-              Facebook. These projects have allowed me to experiment with
-              various programming languages and technologies, and have given me
-              the confidence to tackle more complex projects.
-            </span>
-            <span>
-              My passion for coding extends beyond personal projects, as I am
-              constantly seeking to expand my knowledge and skills through
-              online courses and attending hackathons. These opportunities have
-              allowed me to collaborate with other coders and work on projects
-              that have real-world applications.
-            </span>
-            <span>
-              Through my portfolio, I showcase my ability to develop creative
-              and innovative solutions that are user-friendly and aesthetically
-              pleasing. I am proficient in various programming languages such as
-              Python, JavaScript, and HTML/CSS, and have experience with
-              frameworks such as React and Django.
-            </span>
-            <span>
-              I am excited to continue exploring new opportunities and
-              challenges in the field of coding. I am eager to work with others
-              to solve complex problems and create impactful solutions.
-            </span>
-          </p>
+          <div className="space-y-6 text-gray-400 text-base md:text-lg font-light leading-relaxed">
+            <p>
+              As a dedicated software enthusiast since 2016, I've immersed
+              myself in the world of computer science, cultivating a diverse and
+              robust skill set that is showcased in my comprehensive portfolio.
+              While I may not have formal work experience, my self-motivation
+              and unwavering commitment to continuous learning have driven me to
+              excel in this field.
+            </p>
+            <p>
+              My journey in software development encompasses a wide range of
+              projects, from creating sophisticated weather applications to
+              developing feature-rich social media platforms. I've also honed my
+              skills through participation in numerous hackathons, pushing the
+              boundaries of my abilities and fostering innovation. My technical
+              proficiency spans multiple languages and frameworks, including
+              Python, JavaScript, HTML/CSS, React, and Django, enabling me to
+              tackle diverse challenges in software development.
+            </p>
+            <p>
+              I am enthusiastic about leveraging my skills to explore new
+              opportunities in the tech industry. My passion lies in solving
+              complex problems and creating impactful, user-centric solutions
+              that push the boundaries of what's possible in the digital realm.
+              I am eager to contribute my expertise and fresh perspectives to
+              innovative projects that make a difference in the world of
+              technology.
+            </p>
+          </div>
+          <button className="bg-transparent hover:bg-[#91FCDC] text-[#91FCDC] hover:text-[#0E182D] font-semibold py-2 px-6 border border-[#91FCDC] hover:border-transparent rounded transition duration-300 ease-in-out w-fit mt-4">
+            View My Projects
+          </button>
         </div>
       </div>
     </div>

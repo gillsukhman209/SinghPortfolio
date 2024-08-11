@@ -1,21 +1,32 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
 
-function Card({ title, link, logo }) {
+function Card({ title, link, logo, textColor, hoverEffect }) {
   return (
-    <div
-      onClick={() => {
-        window.open(link);
-      }}
-      className="xl:w-[35%] xs:w-[80%] sm:w-[80%] h-[200px] bg-[#15223E] shadow-2xl rounded-2xl   p-4  flex justify-center hover:scale-110 ease-in-out cursor-pointer "
+    <motion.div
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      onClick={() => window.open(link)}
+      className={`w-full sm:h-64 bg-gradient-to-br from-[#1E293B] to-[#2A3A4F] ${textColor} shadow-lg rounded-3xl p-6 flex flex-col transition-all duration-300 ${hoverEffect} cursor-pointer overflow-hidden group`}
     >
-      <div className="flex gap-10 items-center justify-between ">
-        <div className="xs:text-lg md:text-2xl 4xl:text-3xl font-sans">
-          {title}
-        </div>
-        <div className="flex gap-4 cursor-pointer">{logo}</div>
+      <h3 className="text-2xl font-bold tracking-tight mb-4 w-full">{title}</h3>
+      <motion.div
+        whileHover={{ rotate: 360 }}
+        transition={{ duration: 0.5 }}
+        className="text-4xl flex justify-center items-center flex-grow"
+      >
+        {logo}
+      </motion.div>
+      <div className="mt-4">
+        <span className="text-sm opacity-75">Click to view project</span>
+        <motion.div
+          initial={{ width: 0 }}
+          whileHover={{ width: "100%" }}
+          transition={{ duration: 0.3 }}
+          className="h-0.5 bg-current mt-1"
+        />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
