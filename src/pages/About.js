@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function About() {
   return (
@@ -38,9 +39,6 @@ function About() {
               technology.
             </p>
           </div>
-          <button className="bg-transparent hover:bg-[#91FCDC] text-[#91FCDC] hover:text-[#0E182D] font-semibold py-2 px-6 border border-[#91FCDC] hover:border-transparent rounded transition duration-300 ease-in-out w-fit mt-4">
-            View My Projects
-          </button>
         </div>
       </div>
     </div>

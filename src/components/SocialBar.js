@@ -11,7 +11,7 @@ function SocialBar() {
   const links = {
     linkedin: "https://www.linkedin.com/in/sukhmanpreet-singh-115a30239/",
     github: "https://github.com/gillsukhman209",
-    twitter: "https://x.com/Sukhmanpre30268",
+    twitter: "https://x.com/singhcodes209",
     instagram: "https://www.instagram.com/gill_sukhman209/",
   };
 

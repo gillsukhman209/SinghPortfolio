@@ -11,29 +11,23 @@ function Home() {
         </h2>
         <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold gap-4 flex flex-col">
           <h1 className="text-[#CDD6F3]">Sukhmanpreet Singh</h1>
-          <h1 className="text-gray-400">Frontend Developer</h1>
+          <h1 className="text-gray-400">Software Developer</h1>
         </div>
 
         <p className="text-gray-400 w-full md:max-w-[70%] text-start text-base md:text-lg font-light leading-relaxed transition-colors duration-300 ease-in-out hover:text-white">
-          I'm a dedicated frontend developer with a passion for programming that
-          ignited in 2016. Leveraging a robust foundation in software
-          development, I've cultivated a diverse portfolio that demonstrates my
-          expertise in HTML, CSS, JavaScript, React, and Python. My unwavering
-          commitment to continuous learning, coupled with my ability to craft
-          innovative and efficient solutions, positions me as a valuable asset
-          for cutting-edge frontend development projects. I thrive on
-          transforming complex challenges into seamless, user-centric
-          experiences.
+          I'm a passionate software developer who fell in love with coding back
+          in 2016. I've built a solid foundation in software development and
+          have a diverse portfolio showcasing my skills in HTML, CSS,
+          JavaScript, React, and Python. I'm always eager to learn more and
+          enjoy creating innovative solutions. I love turning complex problems
+          into simple, user-friendly experiences.
         </p>
 
-        <Link
-          to="projects"
-          smooth={true}
-          duration={500}
-          className="bg-transparent hover:bg-[#91FCDC] text-[#91FCDC] hover:text-[#0E182D] font-semibold py-2 px-4 border border-[#91FCDC] hover:border-transparent rounded transition duration-300 ease-in-out w-fit mt-4 cursor-pointer"
-        >
-          View My Work
-        </Link>
+        <button className="bg-transparent hover:bg-[#91FCDC] text-[#91FCDC] hover:text-[#0E182D] font-semibold py-2 px-6 border border-[#91FCDC] hover:border-transparent rounded transition duration-300 ease-in-out w-fit mt-4">
+          <Link to="projects" smooth={true} duration={500}>
+            View My Projects
+          </Link>
+        </button>
       </div>
     </div>
   );

@@ -29,6 +29,21 @@ function Projects() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
         >
           <Card
+            title="21 Habits"
+            link="https://www.21habits.co"
+            logo={
+              <img
+                className="w-16 h-16 object-contain transition-transform duration-300 hover:scale-110"
+                src="https://cdn-icons-png.flaticon.com/512/8711/8711262.png"
+                alt="21 Habits Logo"
+              />
+            }
+            bgColor="bg-gradient-to-br from-[#134E5E] to-[#71B280]"
+            textColor="text-white"
+            hoverEffect="hover:shadow-xl hover:shadow-[#71B280]/30 transition-all duration-300"
+            logoPosition="center"
+          />
+          <Card
             title="Managy "
             link="https://managy.vercel.app"
             logo={
@@ -101,14 +116,6 @@ function Projects() {
             bgColor="bg-gradient-to-br from-[#000000] to-[#0070F3]"
             textColor="text-white"
             hoverEffect="hover:shadow-xl hover:shadow-[#0070F3]/30 transition-all duration-300"
-            logoPosition="center"
-          />
-          <Card
-            title="Explore More on GitHub"
-            link="https://github.com/gillsukhman209"
-            bgColor="bg-gradient-to-br from-[#1E293B] to-[#2A3A4F]"
-            textColor="text-white"
-            hoverEffect="hover:shadow-xl hover:shadow-[#2A3A4F]/30 transition-all duration-300"
             logoPosition="center"
           />
         </motion.div>

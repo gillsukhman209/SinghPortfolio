@@ -127,7 +127,7 @@ function Contact() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="w-full bg-gradient-to-r from-[#91FCDC] to-[#CDD6F3] text-[#1E293B] font-bold py-3 px-4 rounded-lg transition duration-300 ease-in-out hover:from-[#91FCDC] hover:to-[#91FCDC] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#91FCDC]"
+                className="bg-transparent w-full hover:bg-[#91FCDC] text-[#91FCDC] hover:text-[#0E182D] font-semibold py-2 px-6 border border-[#91FCDC] hover:border-transparent rounded transition duration-300 ease-in-out w-fit mt-4"
                 type="submit"
               >
                 Send Message

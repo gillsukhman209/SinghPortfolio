@@ -89,16 +89,12 @@ function Nav() {
                 </NavButton>
               </motion.div>
             ))}
-            <motion.a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-[#91FCDC] text-[#080e1c] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-all duration-200 text-sm tracking-wide"
-            >
-              Resume
-            </motion.a>
+            <NavButton
+              elementId="resume"
+              title="Resume"
+              className={`text-[#080e1c] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-all duration-200 text-sm tracking-wide`}
+              onClick={() => window.open("/resume.pdf", "_blank")}
+            />
           </div>
 
           <div className="md:hidden">
@@ -142,15 +138,12 @@ function Nav() {
                   />
                 </motion.div>
               ))}
-              <motion.a
-                href="/resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                whileTap={{ scale: 0.95 }}
-                className="w-full text-left block px-3 py-2 text-base font-medium bg-[#91FCDC] text-[#080e1c] rounded-md hover:bg-opacity-90 transition-all duration-200"
-              >
-                Resume
-              </motion.a>
+              <NavButton
+                elementId="resume"
+                title="Resume"
+                className={`w-full text-left block px-3 py-2 text-base font-medium bg-[#91FCDC] text-[#080e1c] rounded-md hover:bg-opacity-90 transition-all duration-200`}
+                onClick={() => window.open("/resume.pdf", "_blank")}
+              />
             </div>
           </motion.div>
         )}
