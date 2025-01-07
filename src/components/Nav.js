@@ -89,12 +89,13 @@ function Nav() {
                 </NavButton>
               </motion.div>
             ))}
-            <NavButton
+            {/* <NavButton
               elementId="resume"
               title="Resume"
               className={`text-[#080e1c] px-4 py-2 rounded-md font-medium hover:bg-opacity-90 transition-all duration-200 text-sm tracking-wide`}
               onClick={() => window.open("/resume.pdf", "_blank")}
-            />
+              
+            /> */}
           </div>
 
           <div className="md:hidden">

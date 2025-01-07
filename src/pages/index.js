@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Your Name - Professional Portfolio</title>
+        <title>Sukhmanpreet Singh - Portfolio</title>
         <meta
           name="description"
           content="Portfolio showcasing skills, projects, and experience"
